@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-29T13:35:59 EDT" name="regression" finished-at="2021-08-29T13:36:00 EDT" duration-ms="131">
+    <groups>
+      <group name="frontend">
+        <method signature="SmokeTest.logout()[pri:0, instance:com.bit.test.SmokeTest@6631f5ca]" name="logout" class="com.bit.test.SmokeTest"/>
+        <method signature="UnitTest.buyAShirt()[pri:0, instance:com.bit.test.UnitTest@1613674b]" name="buyAShirt" class="com.bit.test.UnitTest"/>
+      </group> <!-- frontend -->
+    </groups>
+    <test started-at="2021-08-29T13:35:59 EDT" name="test1" finished-at="2021-08-29T13:36:00 EDT" duration-ms="131">
+      <class name="com.bit.test.UnitTest">
+        <test-method signature="buyAShirt()[pri:0, instance:com.bit.test.UnitTest@1613674b]" started-at="2021-08-29T13:36:00 EDT" name="buyAShirt" finished-at="2021-08-29T13:36:00 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyAShirt -->
+      </class> <!-- com.bit.test.UnitTest -->
+      <class name="com.bit.test.SmokeTest">
+        <test-method signature="logout()[pri:0, instance:com.bit.test.SmokeTest@6631f5ca]" started-at="2021-08-29T13:35:59 EDT" name="logout" finished-at="2021-08-29T13:36:00 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.bit.test.SmokeTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- regression -->
+</testng-results>

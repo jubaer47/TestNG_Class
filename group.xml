@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+	<listeners>
+		<listener class-name="com.bit.DB.BaseListener"></listener>
+
+	</listeners>
+	<test name="test1">
+		<groups>
+			<run>
+				<include name="frontend"></include>
+			</run>
+
+
+
+		</groups>
+		<packages>
+			<package name="com.bit.test"></package>
+
+		</packages>
+
+
+	</test>
+
+
+</suite>

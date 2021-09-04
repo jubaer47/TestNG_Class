@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite1" parallel="classes">
+	<test name="test1">
+
+		<classes>
+			<class name="com.bit.test.UnitTest"></class>
+			<class name="com.bit.test.SmokeTest"></class>
+		</classes>
+	</test>
+	<test name="test2">
+
+		<classes>
+			<class name="com.bit.test.UnitTest"></class>
+
+		</classes>
+	</test>
+</suite>
